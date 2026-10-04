@@ -1,0 +1,68 @@
+--- Playlist Menu ---
+1. Insert Song
+2. Delete Song
+3. Search Song
+4. Display Playlist
+5. Exit
+Enter your choice: 1
+Enter song name: Kesariya
+Song inserted successfully.
+
+--- Playlist Menu ---
+1. Insert Song
+2. Delete Song
+3. Search Song
+4. Display Playlist
+5. Exit
+Enter your choice: 1
+Enter song name: Apna Bana Le
+Song inserted successfully.
+
+--- Playlist Menu ---
+1. Insert Song
+2. Delete Song
+3. Search Song
+4. Display Playlist
+5. Exit
+Enter your choice: 4
+Playlist:
+Apna Bana Le
+Kesariya
+
+--- Playlist Menu ---
+1. Insert Song
+2. Delete Song
+3. Search Song
+4. Display Playlist
+5. Exit
+Enter your choice: 3
+Enter song name to search: Kesariya
+Song found in playlist.
+
+--- Playlist Menu ---
+1. Insert Song
+2. Delete Song
+3. Search Song
+4. Display Playlist
+5. Exit
+Enter your choice: 2
+Song deleted successfully.
+
+--- Playlist Menu ---
+1. Insert Song
+2. Delete Song
+3. Search Song
+4. Display Playlist
+5. Exit
+Enter your choice: 4
+Playlist:
+Kesariya
+
+--- Playlist Menu ---
+1. Insert Song
+2. Delete Song
+3. Search Song
+4. Display Playlist
+5. Exit
+Enter your choice: 5
+Exiting...
