@@ -1,0 +1,24 @@
+Step 1: Start the program.
+Step 2: Initialize the head pointer of the Linked List as NULL (indicating an empty playlist).
+Step 3: Display the playlist menu options to the user (Insert, Delete, Search, Display, Exit).
+Step 4: Ask the user to enter their choice.
+Step 5: If choice is 1 (Insert Song):
+• Input the song name from the user.
+• Allocate memory for a new node.
+• Store the song name in the node and point its next pointer to the current head.
+• Update head to point to this new node.
+• Step 6: If choice is 2 (Delete Song):
+• Check if the playlist is empty (head == NULL). If yes, display "Playlist is empty."
+• Otherwise, store the current head in a temporary pointer, move head to head->next, and delete the temporary node.
+Step 7: If choice is 3 (Search Song):
+• Input the song name to be searched.
+• Start traversal from the head node.
+• Compare the target name with each node's song name. If found, display "Song found in playlist."
+• If the end of the list is reached and the song is not found, display "Song not found."
+Step 8: If choice is 4 (Display Playlist):
+• Check if the playlist is empty.
+• If not empty, traverse through all nodes from head to NULL and print the song name stored in each node.
+Step 9: If choice is 5 (Exit):
+• Display "Exiting..." and terminate the loop.
+Step 10: Repeat Steps 3-9 using a do-while loop until the user chooses option 5.
+Step 11: Stop the program.
