@@ -1,0 +1,4 @@
+To implement a dynamic Singly Linked List structure using C++ programming.
+To understand the use of pointers, structures, and dynamic memory allocation (new and delete).
+To perform basic operations like Insertion, Deletion, Searching, and Traversal on a linked list.
+To build a user-friendly, menu-driven interface using loops and conditional switch-case statements.
