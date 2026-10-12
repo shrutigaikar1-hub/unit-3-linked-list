@@ -1,0 +1,99 @@
+```text
+   [ START ]
+       │
+       ▼
+ ┌───────────┐
+ │ head=NULL │
+ └───────────┘
+       │
+       ▼
+ ┌───────────┐
+ │ MENU:     │
+ │ 1.Insert  │
+ │ 2.Delete  │
+ │ 3.Search  │
+ │ 4.Display │
+ │ 5.Exit    │
+ └───────────┘
+       │
+       ▼
+ ┌───────────┐
+ │ Input     │
+ │ Choice    │
+ └───────────┘
+       │
+       ▼
+ ┌───────────┐
+ │  SWITCH   │
+ │  CHOICE   │
+ └───────────┘
+       │
+       ▼
+=======================
+[ CHOICE 1: INSERT ]
+=======================
+       │
+       ▼
+ Input Song Name
+       │
+       ▼
+ Create New Node
+       │
+       ▼
+ Insert at Head
+       │
+       ▼
+  [ Loop Back ]
+       │
+       ▼
+=======================
+[ CHOICE 2: DELETE ]
+=======================
+       │
+       ▼
+ Is head == NULL?
+       ├──► YES ──► "Empty" ──► [ Loop ]
+       └──► NO  ──► Delete ───► [ Loop ]
+       │
+       ▼
+=======================
+[ CHOICE 3: SEARCH ]
+=======================
+       │
+       ▼
+ Input Target Song
+       │
+       ▼
+ Traverse & Compare
+       ├──► FOUND ────► "Found" ──► [ Loop ]
+       └──► NOT FOUND ──► "Skip" ──► [ Loop ]
+       │
+       ▼
+=======================
+[ CHOICE 4: DISPLAY ]
+=======================
+       │
+       ▼
+ Is head == NULL?
+       ├──► YES ──► "Empty" ────► [ Loop ]
+       └──► NO  ──► Print All ──► [ Loop ]
+       │
+       ▼
+=======================
+[ CHOICE 5: EXIT ]
+=======================
+       │
+       ▼
+ Display "Exiting..."
+       │
+       ▼
+    [ STOP ]
+       │
+       ▼
+=======================
+[ INVALID CHOICE ]
+=======================
+       │
+       ▼
+ Display "Invalid" ──► [ Loop Back ]
+```
